@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  MudahChat
 //
-//  Created by Nicholas Ngoh on 07/06/2022.
+//  Created by Scott.L on 07/06/2022.
 //
 
 import UIKit
@@ -13,7 +13,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        
+        DeviceInternetMonitor.shared.startMonitoring()
+        
         return true
     }
 
