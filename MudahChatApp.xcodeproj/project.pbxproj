@@ -9,21 +9,45 @@
 /* Begin PBXBuildFile section */
 		973E8E422850F96700461D27 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 973E8E412850F96700461D27 /* AppDelegate.swift */; };
 		973E8E442850F96700461D27 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 973E8E432850F96700461D27 /* SceneDelegate.swift */; };
-		973E8E462850F96700461D27 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 973E8E452850F96700461D27 /* ViewController.swift */; };
-		973E8E492850F96700461D27 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 973E8E472850F96700461D27 /* Main.storyboard */; };
-		973E8E4B2850F96800461D27 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 973E8E4A2850F96800461D27 /* Assets.xcassets */; };
-		973E8E4E2850F96800461D27 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 973E8E4C2850F96800461D27 /* LaunchScreen.storyboard */; };
+		973E8E632850F9B500461D27 /* ChatScreenInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 973E8E582850F9B500461D27 /* ChatScreenInterface.swift */; };
+		973E8E642850F9B500461D27 /* ChatScreenViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 973E8E592850F9B500461D27 /* ChatScreenViewModel.swift */; };
+		973E8E652850F9B500461D27 /* ChatMessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 973E8E5B2850F9B500461D27 /* ChatMessageCell.swift */; };
+		973E8E662850F9B500461D27 /* ChatMessageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 973E8E5D2850F9B500461D27 /* ChatMessageModel.swift */; };
+		973E8E672850F9B500461D27 /* MessageRequestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 973E8E5E2850F9B500461D27 /* MessageRequestModel.swift */; };
+		973E8E682850F9B500461D27 /* MessageResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 973E8E5F2850F9B500461D27 /* MessageResponseModel.swift */; };
+		973E8E692850F9B500461D27 /* ChatScreenViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 973E8E612850F9B500461D27 /* ChatScreenViewController.xib */; };
+		973E8E6A2850F9B500461D27 /* ChatScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 973E8E622850F9B500461D27 /* ChatScreenViewController.swift */; };
+		973E8E782850F9EC00461D27 /* chat.json in Resources */ = {isa = PBXBuildFile; fileRef = 973E8E6C2850F9EC00461D27 /* chat.json */; };
+		973E8E792850F9EC00461D27 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 973E8E6E2850F9EC00461D27 /* Utilities.swift */; };
+		973E8E7A2850F9EC00461D27 /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = 973E8E6F2850F9EC00461D27 /* Network.swift */; };
+		973E8E7B2850F9EC00461D27 /* APIRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 973E8E702850F9EC00461D27 /* APIRequest.swift */; };
+		973E8E7C2850F9EC00461D27 /* Keyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 973E8E712850F9EC00461D27 /* Keyboard.swift */; };
+		973E8E7D2850F9EC00461D27 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 973E8E722850F9EC00461D27 /* Assets.xcassets */; };
+		973E8E7E2850F9EC00461D27 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 973E8E732850F9EC00461D27 /* LaunchScreen.storyboard */; };
+		973E8E7F2850F9EC00461D27 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 973E8E752850F9EC00461D27 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		973E8E3E2850F96700461D27 /* MudahChatApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MudahChatApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		973E8E412850F96700461D27 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		973E8E432850F96700461D27 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		973E8E452850F96700461D27 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		973E8E482850F96700461D27 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		973E8E4A2850F96800461D27 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		973E8E4D2850F96800461D27 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		973E8E4F2850F96800461D27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		973E8E4F2850F96800461D27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../Info.plist; sourceTree = "<group>"; };
+		973E8E582850F9B500461D27 /* ChatScreenInterface.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatScreenInterface.swift; sourceTree = "<group>"; };
+		973E8E592850F9B500461D27 /* ChatScreenViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatScreenViewModel.swift; sourceTree = "<group>"; };
+		973E8E5B2850F9B500461D27 /* ChatMessageCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatMessageCell.swift; sourceTree = "<group>"; };
+		973E8E5D2850F9B500461D27 /* ChatMessageModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatMessageModel.swift; sourceTree = "<group>"; };
+		973E8E5E2850F9B500461D27 /* MessageRequestModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageRequestModel.swift; sourceTree = "<group>"; };
+		973E8E5F2850F9B500461D27 /* MessageResponseModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageResponseModel.swift; sourceTree = "<group>"; };
+		973E8E612850F9B500461D27 /* ChatScreenViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ChatScreenViewController.xib; sourceTree = "<group>"; };
+		973E8E622850F9B500461D27 /* ChatScreenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatScreenViewController.swift; sourceTree = "<group>"; };
+		973E8E6C2850F9EC00461D27 /* chat.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = chat.json; sourceTree = "<group>"; };
+		973E8E6E2850F9EC00461D27 /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		973E8E6F2850F9EC00461D27 /* Network.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
+		973E8E702850F9EC00461D27 /* APIRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIRequest.swift; sourceTree = "<group>"; };
+		973E8E712850F9EC00461D27 /* Keyboard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Keyboard.swift; sourceTree = "<group>"; };
+		973E8E722850F9EC00461D27 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		973E8E742850F9EC00461D27 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		973E8E762850F9EC00461D27 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,13 +82,89 @@
 			children = (
 				973E8E412850F96700461D27 /* AppDelegate.swift */,
 				973E8E432850F96700461D27 /* SceneDelegate.swift */,
-				973E8E452850F96700461D27 /* ViewController.swift */,
-				973E8E472850F96700461D27 /* Main.storyboard */,
-				973E8E4A2850F96800461D27 /* Assets.xcassets */,
-				973E8E4C2850F96800461D27 /* LaunchScreen.storyboard */,
-				973E8E4F2850F96800461D27 /* Info.plist */,
+				973E8E552850F9B500461D27 /* Module */,
+				973E8E6B2850F9EC00461D27 /* Resource */,
 			);
 			path = MudahChatApp;
+			sourceTree = "<group>";
+		};
+		973E8E552850F9B500461D27 /* Module */ = {
+			isa = PBXGroup;
+			children = (
+				973E8E562850F9B500461D27 /* ChatScreen */,
+			);
+			path = Module;
+			sourceTree = "<group>";
+		};
+		973E8E562850F9B500461D27 /* ChatScreen */ = {
+			isa = PBXGroup;
+			children = (
+				973E8E572850F9B500461D27 /* ViewModel */,
+				973E8E5A2850F9B500461D27 /* Cell */,
+				973E8E5C2850F9B500461D27 /* Model */,
+				973E8E602850F9B500461D27 /* ViewController */,
+			);
+			path = ChatScreen;
+			sourceTree = "<group>";
+		};
+		973E8E572850F9B500461D27 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				973E8E582850F9B500461D27 /* ChatScreenInterface.swift */,
+				973E8E592850F9B500461D27 /* ChatScreenViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		973E8E5A2850F9B500461D27 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				973E8E5B2850F9B500461D27 /* ChatMessageCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		973E8E5C2850F9B500461D27 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				973E8E5D2850F9B500461D27 /* ChatMessageModel.swift */,
+				973E8E5E2850F9B500461D27 /* MessageRequestModel.swift */,
+				973E8E5F2850F9B500461D27 /* MessageResponseModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		973E8E602850F9B500461D27 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				973E8E612850F9B500461D27 /* ChatScreenViewController.xib */,
+				973E8E622850F9B500461D27 /* ChatScreenViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		973E8E6B2850F9EC00461D27 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				973E8E4F2850F96800461D27 /* Info.plist */,
+				973E8E6C2850F9EC00461D27 /* chat.json */,
+				973E8E6D2850F9EC00461D27 /* Extension */,
+				973E8E722850F9EC00461D27 /* Assets.xcassets */,
+				973E8E732850F9EC00461D27 /* LaunchScreen.storyboard */,
+				973E8E752850F9EC00461D27 /* Main.storyboard */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		973E8E6D2850F9EC00461D27 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				973E8E6E2850F9EC00461D27 /* Utilities.swift */,
+				973E8E6F2850F9EC00461D27 /* Network.swift */,
+				973E8E702850F9EC00461D27 /* APIRequest.swift */,
+				973E8E712850F9EC00461D27 /* Keyboard.swift */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,9 +224,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				973E8E4E2850F96800461D27 /* LaunchScreen.storyboard in Resources */,
-				973E8E4B2850F96800461D27 /* Assets.xcassets in Resources */,
-				973E8E492850F96700461D27 /* Main.storyboard in Resources */,
+				973E8E692850F9B500461D27 /* ChatScreenViewController.xib in Resources */,
+				973E8E7F2850F9EC00461D27 /* Main.storyboard in Resources */,
+				973E8E7E2850F9EC00461D27 /* LaunchScreen.storyboard in Resources */,
+				973E8E7D2850F9EC00461D27 /* Assets.xcassets in Resources */,
+				973E8E782850F9EC00461D27 /* chat.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,29 +239,39 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				973E8E462850F96700461D27 /* ViewController.swift in Sources */,
+				973E8E6A2850F9B500461D27 /* ChatScreenViewController.swift in Sources */,
+				973E8E632850F9B500461D27 /* ChatScreenInterface.swift in Sources */,
 				973E8E422850F96700461D27 /* AppDelegate.swift in Sources */,
+				973E8E672850F9B500461D27 /* MessageRequestModel.swift in Sources */,
+				973E8E652850F9B500461D27 /* ChatMessageCell.swift in Sources */,
+				973E8E7C2850F9EC00461D27 /* Keyboard.swift in Sources */,
+				973E8E7A2850F9EC00461D27 /* Network.swift in Sources */,
 				973E8E442850F96700461D27 /* SceneDelegate.swift in Sources */,
+				973E8E682850F9B500461D27 /* MessageResponseModel.swift in Sources */,
+				973E8E642850F9B500461D27 /* ChatScreenViewModel.swift in Sources */,
+				973E8E792850F9EC00461D27 /* Utilities.swift in Sources */,
+				973E8E7B2850F9EC00461D27 /* APIRequest.swift in Sources */,
+				973E8E662850F9B500461D27 /* ChatMessageModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		973E8E472850F96700461D27 /* Main.storyboard */ = {
+		973E8E732850F9EC00461D27 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				973E8E482850F96700461D27 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		973E8E4C2850F96800461D27 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				973E8E4D2850F96800461D27 /* Base */,
+				973E8E742850F9EC00461D27 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		973E8E752850F9EC00461D27 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				973E8E762850F9EC00461D27 /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -287,7 +399,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = MudahChatApp/Info.plist;
+				INFOPLIST_FILE = MudahChatApp/Resource/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -305,7 +417,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = MudahChatApp/Info.plist;
+				INFOPLIST_FILE = MudahChatApp/Resource/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
