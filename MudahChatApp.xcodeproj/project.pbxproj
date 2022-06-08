@@ -31,7 +31,6 @@
 		973E8E3E2850F96700461D27 /* MudahChatApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MudahChatApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		973E8E412850F96700461D27 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		973E8E432850F96700461D27 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		973E8E4F2850F96800461D27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../Info.plist; sourceTree = "<group>"; };
 		973E8E582850F9B500461D27 /* ChatScreenInterface.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatScreenInterface.swift; sourceTree = "<group>"; };
 		973E8E592850F9B500461D27 /* ChatScreenViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatScreenViewModel.swift; sourceTree = "<group>"; };
 		973E8E5B2850F9B500461D27 /* ChatMessageCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatMessageCell.swift; sourceTree = "<group>"; };
@@ -48,6 +47,7 @@
 		973E8E722850F9EC00461D27 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		973E8E742850F9EC00461D27 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		973E8E762850F9EC00461D27 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9795FE442851042C00171B7F /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -146,7 +146,7 @@
 		973E8E6B2850F9EC00461D27 /* Resource */ = {
 			isa = PBXGroup;
 			children = (
-				973E8E4F2850F96800461D27 /* Info.plist */,
+				9795FE442851042C00171B7F /* Info.plist */,
 				973E8E6C2850F9EC00461D27 /* chat.json */,
 				973E8E6D2850F9EC00461D27 /* Extension */,
 				973E8E722850F9EC00461D27 /* Assets.xcassets */,
