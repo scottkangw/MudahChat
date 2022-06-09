@@ -102,7 +102,11 @@ fileprivate extension ChatScreenViewController {
     func lostNetworkAction() {
         // Main Thread Present Alert
         DispatchQueue.main.async {
-            if DeviceInternetMonitor.shared.isConnected {
+            var network = !DeviceInternetMonitor.shared.isConnected
+            #if targetEnvironment(simulator)
+                network = !network
+            #endif
+            if  network {
                 self.viewModel.networkStatusMessage = .lostConnected
                 let lostConnectionAlert = UIAlertController(title: "Network", message: self.viewModel.networkStatusMessage.rawValue, preferredStyle: .alert)
                 lostConnectionAlert.addAction(UIAlertAction(title: "OK", style: .cancel, handler: { cancel in
